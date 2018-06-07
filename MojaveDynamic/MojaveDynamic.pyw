@@ -17,7 +17,6 @@ def read_conf():
 	json_string = ''
 	for l in f:
 		json_string += l.rstrip()
-	print(json_string)
 	return json.loads(json_string)
 
 def delta_hours(conf):
