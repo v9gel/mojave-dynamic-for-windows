@@ -1,12 +1,82 @@
 [
 	{
-		"start": 7,
-		"finish": 22,
-		"image": ["Mojave Day.jpg"]
+		"start": 4,
+		"finish": 5,
+		"image": ["01.jpeg"]
 	},
 	{
-		"start": 22,
-		"finish": 7,
-		"image": ["Mojave Night.jpg"]
+		"start": 5,
+		"finish": 6,
+		"image": ["02.jpeg"]
+	},
+	{
+		"start": 6,
+		"finish": 8,
+		"image": ["03.jpeg"]
+	},
+	{
+		"start": 8,
+		"finish": 10,
+		"image": ["04.jpeg"]
+	},
+	{
+		"start": 10,
+		"finish": 11,
+		"image": ["05.jpeg"]
+	},
+	{
+		"start": 11,
+		"finish": 12,
+		"image": ["06.jpeg"]
+	},
+	{
+		"start": 12,
+		"finish": 13,
+		"image": ["07.jpeg"]
+	},
+	{
+		"start": 13,
+		"finish": 14,
+		"image": ["08.jpeg"]
+	},
+	{
+		"start": 14,
+		"finish": 16,
+		"image": ["09.jpeg"]
+	},
+	{
+		"start": 16,
+		"finish": 18,
+		"image": ["10.jpeg"]
+	},
+	{
+		"start": 18,
+		"finish": 20,
+		"image": ["11.jpeg"]
+	},
+	{
+		"start": 20,
+		"finish": 21,
+		"image": ["12.jpeg"]
+	},
+	{
+		"start": 21,
+		"finish": 23,
+		"image": ["13.jpeg"]
+	},
+	{
+		"start": 23,
+		"finish": 24,
+		"image": ["14.jpeg"]
+	},
+	{
+		"start": 0,
+		"finish": 2,
+		"image": ["15.jpeg"]
+	},
+	{
+		"start": 2,
+		"finish": 4,
+		"image": ["16.jpeg"]
 	}
 ]
