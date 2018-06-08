@@ -1,0 +1,12 @@
+[
+	{
+		"start": 7,
+		"finish": 22,
+		"image": ["Mojave Day.jpg"]
+	},
+	{
+		"start": 22,
+		"finish": 7,
+		"image": ["Mojave Night.jpg"]
+	}
+]
