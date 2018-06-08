@@ -16,7 +16,6 @@ def read_conf():
 	f = open(path + '\\conf.json')
 	json_string = ''
 	for l in f:
-		print(l)
 		json_string += l.rstrip()
 	print(json_string)
 	return json.loads(json_string)
