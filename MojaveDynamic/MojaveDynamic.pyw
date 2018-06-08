@@ -19,21 +19,12 @@ def read_conf():
 		json_string += l.rstrip()
 	return json.loads(json_string)
 
-def delta_hours(conf):
-	max = conf[0]['start']
-	for e in conf:
-		if e['start'] > max:
-			max = e['start']
-
-	return 24 - max
-
 def work(conf):
 	cur_hour = datetime.datetime.now().hour
 	path = 'C:\\Users\\' + getpass.getuser() + '\\AppData\\Local\\MojaveDynamic'
-	delta = delta_hours(conf)
-
+	
 	for e in conf:
-		if (e['start'] + delta) % 24 < (cur_hour + delta) % 24 <= e['finish'] + delta:
+		if e['start'] <= cur_hour < e['finish']:
 			set_wallpaper(path +'\\'+ random.choice(e['image']))
 
 if __name__ == "__main__":
